@@ -23,6 +23,21 @@ window.document.onkeydown = function(e) {
 	lightBoxVideo.pause();
   }
 
+  function lightbox_open3() {
+	var lightBoxVideo = document.getElementById("KitchenChaos-Gameplay");
+	window.scrollTo(0, 0);
+	document.getElementById('light3').style.display = 'block';
+	document.getElementById('fade3').style.display = 'block';
+	lightBoxVideo.play();
+  }
+  
+  function lightbox_close3() {
+	var lightBoxVideo = document.getElementById("KitchenChaos-Gameplay");
+	document.getElementById('light3').style.display = 'none';
+	document.getElementById('fade3').style.display = 'none';
+	lightBoxVideo.pause();
+  }
+
   function lightbox_open2() {
 	var lightBoxVideo = document.getElementById("Surival-Game-Alpha");
 	window.scrollTo(0, 0);

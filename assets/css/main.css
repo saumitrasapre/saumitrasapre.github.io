@@ -3910,7 +3910,7 @@ input, select, textarea {
 		  }
 		  
 		  #light3 {
-			display: none;
+			display: none !important;
 			position: absolute;
 			top: 50%;
 			left: 50%;

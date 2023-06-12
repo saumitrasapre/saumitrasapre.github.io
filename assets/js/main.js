@@ -27,7 +27,7 @@ window.document.onkeydown = function(e) {
 	var lightBoxVideo = document.getElementById("KitchenChaos-Gameplay");
 	window.scrollTo(0, 0);
 	document.getElementById('light3').style.display = 'block';
-	document.getElementById('fade3').style.display = 'block';
+	document.getElementById('fade3').style.display = 'block' ;
 	lightBoxVideo.play();
   }
   

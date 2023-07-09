@@ -38,6 +38,21 @@ window.document.onkeydown = function(e) {
 	lightBoxVideo.pause();
   }
 
+  function lightbox_open4() {
+	var lightBoxVideo = document.getElementById("Labyrinthia-Gameplay");
+	window.scrollTo(0, 0);
+	document.getElementById('light4').style.display = 'block';
+	document.getElementById('fade4').style.display = 'block' ;
+	lightBoxVideo.play();
+  }
+  
+  function lightbox_close4() {
+	var lightBoxVideo = document.getElementById("Labyrinthia-Gameplay");
+	document.getElementById('light4').style.display = 'none';
+	document.getElementById('fade4').style.display = 'none';
+	lightBoxVideo.pause();
+  }
+
   function lightbox_open2() {
 	var lightBoxVideo = document.getElementById("Surival-Game-Alpha");
 	window.scrollTo(0, 0);
